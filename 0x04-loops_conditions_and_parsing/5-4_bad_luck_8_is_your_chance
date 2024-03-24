@@ -7,10 +7,10 @@ while [ $idx -lt 10 ]
 do
   if [ $idx -eq 3 ]
   then
-          echo "Bac luck"
+          echo "bad luck"
   elif [ $idx -eq 7 ]
   then
-	  echo "Good luck"
+	  echo "good luck"
   else
 	  echo "Best School"
   fi
