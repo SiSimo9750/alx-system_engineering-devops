@@ -3,9 +3,8 @@
 
 idx=0
 
-while [$idx -lt 10]
+while [ $idx -lt 10 ]
 do
   echo "Best School"
   (( idx++ ))
-done
-~      
+done    

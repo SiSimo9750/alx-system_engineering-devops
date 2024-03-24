@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Use while loop wirh if statement.
+
+idx=0
+
+while [ $idx -lt 10 ]
+do
+  if [ $idx -eq 3 ]
+  then
+          echo "Bac luck"
+  elif [ $idx -eq 7 ]
+  then
+	  echo "Good luck"
+  else
+	  echo "Best School"
+  fi
+  (( idx++ ))
+done

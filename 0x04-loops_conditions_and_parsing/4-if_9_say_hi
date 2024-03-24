@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Use while loop wirh if statement.
+
+idx=0
+
+while [ $idx -lt 10 ]
+do
+  if [ $idx -ne 8 ]
+  then
+          echo "Best School"
+  else
+          echo "Hi"
+  fi
+  (( idx++ ))
+done

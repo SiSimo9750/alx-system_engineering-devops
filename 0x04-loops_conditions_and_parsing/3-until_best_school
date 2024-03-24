@@ -3,9 +3,8 @@
 
 idx=0
 
-until [$idx -eq 10]
+until [ $idx -eq 10 ]
 do
   echo "Best School"
   (( idx++ ))
 done
-~      

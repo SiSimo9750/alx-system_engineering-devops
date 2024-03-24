@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Use while loop to make a clock script.
+
+hr=0
+
+while [ $hr -lt 12 ]
+do
+	min=1
+	echo "Hour: $hr"
+	while [ $min -lt 60 ]
+	do
+		echo "$min"
+		(( min++ ))
+	done
+	(( hr++ ))
+done

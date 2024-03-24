@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# List the CD files
+# show with name after the first dash. 
+
+myList=$(ls)
+for myItem in $myList; do
+  echo "$myItem" | cut -d '-' -f2
+done
