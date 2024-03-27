@@ -2,7 +2,7 @@
 # installs nginx on a remote server
 # configure the nginx server
 # REDIRECTION AS "301 Moved Permanently"
-#Costume 404 page
+# Costume 404 page
 
 apt-get -y update
 apt-get -y install nginx
